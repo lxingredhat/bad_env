@@ -7,6 +7,9 @@ case "$1" in
     version="$2"
 esac
 
+
+mkdir $OPENSHIFT_HOMEDIR/test
+
 # Create additional directories required by the diy cartridge
 mkdir -p $OPENSHIFT_DIY_DIR/{logs,run}
 
